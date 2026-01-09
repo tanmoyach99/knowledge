@@ -126,6 +126,7 @@ nav a{
   list-style: none;
   display: flex;
   gap: 10px;
+  font-size: 12px;
   line-height: 20px;
 }
 .brain-desc p {
