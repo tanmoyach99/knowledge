@@ -159,6 +159,38 @@ margin-left: 2px
     font-size: 48px;
    font-weight: 600;
 }
+footer{
+      background-color: rgb(1, 1, 28);
+   
+}
+.main-footer{
+  
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+color: white;
+padding: 120px 190px 50px ;
+border-bottom: 2px solid white
+
+
+}
+.social{
+    text-align: center
+
+}
+.social h3{
+    padding-left: 25px;
+}
+.main-footer ul {
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    list-style: none;
+    gap:10px;
+}
+
+
+
 
 
 
