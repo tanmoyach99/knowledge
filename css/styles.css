@@ -78,10 +78,9 @@ nav a{
 /* Cards Section */
 .card-section {
   text-align: center;
-  padding: 10px 120px;
+  padding: 10px 120px ;
   background-color: #ced1d3;
-  height: 348px;
-  margin-bottom: -50px
+  height: 448px;
 }
 
 .cards {
@@ -92,7 +91,7 @@ nav a{
 }
 
 .card {
-  padding: 120px 25px;
+  padding: 120px 25px ;
   background-color: white;
   border-radius: 10px;
 }
@@ -105,6 +104,7 @@ nav a{
 .card-section h3 {
   font-size: 48px;
   font-weight: 700;
+  padding-top:50px
 }
 
 
