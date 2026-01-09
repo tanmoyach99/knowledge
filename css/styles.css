@@ -1,207 +1,246 @@
 
-body{
-      font-family: "Inter", sans-serif;
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize
 }
 
 
-header nav .menu{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    list-style: none;
-    padding:10px 120px;
+h1, h2, h3,h4,h5,h6 {
+  margin: 0;
 }
 
-header nav .menu-options{
-    list-style:none; 
-    display:flex;
-    gap:15px
-
+p {
+  margin: 10px 0;
 }
-.main-btn{
-    background-color: 
-#30B868;
-color: white;
-padding: 16px 32px;
-border:none;
-font-weight: 600;
-border-radius: 5px;
-text-align: center;
 
+/* common btn */
 
-
-
+.main-btn {
+  background-color: #30b868;
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 
-.banner{
-    background:url("../assets/hero-bg.png");
-    /* background-ue:("../Sections/Banner.png"); */
-    text-align: center;
-    padding: 154px;
+/* navigation styles */
+header nav .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 10px 120px;
 }
-.banner h1{
-    font-size: 60px;
-    font-weight: 700;
-    color: white;
-    line-height: 74px;
-    margin: 0;
+
+header nav .menu-options {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+nav a{
     
+    text-decoration: none;
+    color: black
     
 
 }
-.banner p{
-    color: white
+
+/* Banner */
+.banner {
+  background: url("../assets/hero-bg.png") no-repeat center/cover;
+  text-align: center;
+  padding: 154px;
 }
 
-.green-text{
-    color:#30B868;
+.banner h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  line-height: 74px;
+}
 
+.banner p {
+  color: white;
 }
-.btn-clear{
-background: transparent;
-color: white;
-padding: 16px 32px;
-font-weight: 600;
-border-radius: 5px;
-border: 1px solid white;
-margin-left: 2px
 
+.green-text {
+  color: #30b868;
 }
-.early-access-btn{
-    background-color:white;
-    color:#30B868;
-    padding:8px 16px;
-    border-radius:1000px;
-    border:none
-}
-.card-section{
-    text-align: center;
-    padding:10px 120px;
-    background-color: #ced1d3;
-    height:448px;
 
+/* Cards Section */
+.card-section {
+  text-align: center;
+  padding: 10px 120px;
+  background-color: #ced1d3;
+  height: 448px;
 }
-.card-section h3{
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 0
 
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px;
 }
-.card-section p{
 
+.card {
+  padding: 120px 25px;
+  background-color: white;
+  border-radius: 10px;
 }
-.cards{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin:20px;
-    gap:10px;
 
+.card img {
+  background-color: red;
+  border-radius: 50%;
+  padding: 10px;
 }
-.card{
-    padding: 120px 25px;
-    background-color: white;
-    border: 1px solid white;
-    border-radius: 10px;
+.card-section h3 {
+  font-size: 48px;
+  font-weight: 700;
+}
 
-}
-.card img{
-    background-color: red;
-    border-radius: 50%;
-    padding: 10px
 
+/* Brain Section */
+.brain {
+  display: flex;
+  align-items: center;
+  padding: 120px;
 }
-.card h3{
-    font-size: 24px;
 
+.brain .brain-img {
+  width: 668px;
 }
-.card p{
 
+.brain-desc {
+  padding: 120px 60px;
 }
-.brain{
-    display:flex;
-    padding:120px;
-    justify-items: center;
-    align-items: center;
-}
-.brain .brain-img{
-    width: 668px
-}
-.brain-desc{
-    padding:120px 60px;
-}
-.brain-desc p{
-    color: #30B868
-}
-.brain-desc h3{
-    font-size: 48px;
-    font-weight: 600;
-    margin:5px 0px;
 
+.brain-desc ul li {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  line-height: 20px;
 }
-.brain-desc small{
-    color:  lightgrey
+.brain-desc p {
+  color: #30b868;
 }
-.brain-desc ul li{
-    list-style: none;
-    display:flex;
-    gap:10px;
-    line-height: 20px;
-}
-.think{
-    margin: 20px 120px;
-    padding: 80px 40px;
-    text-align: center;
-    background-color:#ced1d3;
-    border-radius: 10px;
 
+.brain-desc h3 {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 5px 0;
 }
-.think h2{
-    font-size: 48px;
-   font-weight: 600;
+
+.brain-desc small {
+  color: #627382;
 }
-footer{
-      background-color: rgb(1, 1, 28);
-      padding: 120px 190px 100px ;
-   
+/* Think Section */
+.think {
+  margin: 20px 120px;
+  padding: 80px 40px;
+  text-align: center;
+  background-color: #ced1d3;
+  border-radius: 10px;
 }
-.main-footer{
-  
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-color: white;
-border-bottom: 1px solid white;
+
+.think h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+
+/* Footer */
+footer {
+  background-color: rgb(1, 1, 28);
+  padding: 120px 190px 100px;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.copyright {
+  color: white;
+  padding: 30px 170px;
+  text-align: center;
+}
 
 
 
-
-}
-.social{
-    text-align: center
-
+footer a{
+    text-decoration: none;
+    color:white
 }
 
-.social h3{
-    padding-left: 25px;
+
+.btn-clear {
+  background: transparent;
+  color: white;
+  padding: 16px 32px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-left: 2px;
+  cursor: pointer;
 }
+
+.early-access-btn {
+  background-color: white;
+  color: #30b868;
+  padding: 8px 16px;
+  border-radius: 1000px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
 .main-footer ul {
-    display: flex;
-    justify-items: flex-start;
-    align-items: center;
-    list-style: none;
-    gap:10px;
+  display: flex;
+  list-style: none;
+  gap: 10px;
 }
 
-.copyright{
-    color: white;
-    padding:30px 170px;
-    text-align: center;
+.social {
+  text-align: center;
+}
+
+.social h3 {
+  padding-left: 25px;
 }
 
 
-
-
-
-
+/* hover affect */
+.main-btn:hover{
+    color:#30b868;
+    background-color: white;
+    border:1px solid #30b868;
+    border-radius: 5px
+}
+.early-access-btn:hover {
+  background-color:#30b868 ;
+  color:white;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+.btn-clear:hover{
+     background-color:red ;
+  color:white;
+  border-radius: 5px
+}
